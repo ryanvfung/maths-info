@@ -1,0 +1,29 @@
+#title a {
+	color: inherit;
+	text-decoration: inherit;
+}
+#title a:hover {
+	text-decoration: underline;
+}
+h1 {
+	margin: 1em 0em 0.2em;
+}
+h1:first-child {
+	margin: 0em 0em 0.2em;
+}
+
+nav#nav ul li:nth-child(even) {
+    background: #fff;
+}
+nav#nav ul li a:hover {
+    background: #f3f3f3;
+}
+table .MathJax_Display {
+    margin: 0.5em 0em !important;
+}
+table {
+    margin: 1em auto;
+}
+td {
+    text-align: center;
+}
