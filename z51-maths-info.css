@@ -15,7 +15,7 @@ h1:first-child {
 nav#nav ul li:nth-child(even) {
     background: #fff;
 }
-nav#nav ul li a:hover {
+nav#nav ul li a:hover, nav#nav .toggle:hover {
     background: #f3f3f3;
 }
 table .MathJax_Display {
@@ -26,4 +26,46 @@ table {
 }
 td {
     text-align: center;
+}
+
+
+nav#nav ul li.intra {
+	background: #ddd;
+}
+@media all and (min-width: 500px) {
+	nav#nav ul li a {
+		display: inline-block;
+		width: 9.75em;
+	}
+	nav#nav > ul > li > a {
+		width: 7.7em;
+	}
+	.toggle {
+		display: inline-block;
+		float: right;
+		width: 1em;
+		height: 1em;
+		padding: 0.8em 0.6em 0.7em 0.9em;
+	}
+	.toggle:hover {
+		background: #inherit;
+	}
+	.toggle-arrow {
+		display: inline-block;
+		width: 0.5em;
+		height: 0.5em;
+		margin-top: -0.1em;
+		border-right:  0.2em solid #f60;
+		border-bottom: 0.2em solid #f60;
+		transform: rotate(-135deg);
+	}
+	.nav-ul-hide ul {
+		display: none;
+	}
+	.nav-ul-hide .toggle {
+		padding: 0.55em 0.6em 0.95em 0.9em;
+	}
+	.nav-ul-hide .toggle-arrow {
+		transform: rotate(45deg);
+	}
 }

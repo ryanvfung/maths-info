@@ -12,10 +12,10 @@ Available for use under the MIT license.
 
 **Created**: 2010 (v1)
 
-**Last Modified**: 2015-03-26 (v3.0.0)
+**Last Modified**: 2015-03-27 (v3.0.1)
 
 
-Version 3.0.0 Contents
+Version 3.0.1 Contents
 ----------------------
 
 * Home

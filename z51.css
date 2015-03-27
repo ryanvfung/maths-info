@@ -17,6 +17,9 @@ body {
     font: 100% 'Maven Pro';
     background: #f8f8f8;
 }
+body.nav-active {
+	overflow: hidden;
+}
 h1 {
     margin: 0em 0em 0.2em;
     padding: 0.2em 0.5em;
@@ -189,6 +192,9 @@ nav#nav #nav-title {
     background: #f93;
     color: #fff;
 }
+nav#nav > ul {
+	box-shadow: 0em 1em 2em 0.1em rgba(0,0,0,0.2);
+}
 nav#nav ul {
     margin: 0em;
     padding: 0em;
@@ -297,6 +303,9 @@ main p {
     }
 }
 @media all and (min-width: 1200px) {
+	body.nav-active {
+		overflow: inherit;
+	}
     nav#navbar {
         display: none;
         height: 0em;

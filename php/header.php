@@ -1,3 +1,7 @@
+<?php
+if(!$subtitle) $subtitle = '&nbsp;';
+if($subtitle=='') $subtitle = '&nbsp;';
+?>
 <!doctype html>
 <!-- Ryan Fung's HTML Template v5.1 -->
 <html><head>
