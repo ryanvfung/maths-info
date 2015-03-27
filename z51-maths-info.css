@@ -13,19 +13,19 @@ h1:first-child {
 }
 
 nav#nav ul li:nth-child(even) {
-    background: #fff;
+	background: #fff;
 }
 nav#nav ul li a:hover, nav#nav .toggle:hover {
-    background: #f3f3f3;
+	background: #f3f3f3;
 }
 table .MathJax_Display {
-    margin: 0.5em 0em !important;
+	margin: 0.5em 0em !important;
 }
 table {
-    margin: 1em auto;
+	margin: 1em auto;
 }
 td {
-    text-align: center;
+	text-align: center;
 }
 
 
