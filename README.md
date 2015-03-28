@@ -47,8 +47,8 @@ Upcoming Contents
 Changelog
 ---------
 
-### v3.0.0 (2015-02-26)
-* Initial commit
-
-### v3.0.1 (2015-03-27)
-* Converted sidebar menu to expandable menu
+### Version 3
+* v3.0.0 (2015-02-26)
+  * Initial commit
+* v3.0.1 (2015-03-27)
+  * Converted sidebar menu to expandable menu
