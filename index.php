@@ -5,14 +5,14 @@
 ?>
 <section>
 	<h1>Introduction</h1>
-		<p>Welcome to Maths Info, a website designed to be a reference resource that provides all the formulae needed in mathematics.</p>
+		<p>Welcome to <?php echo $description; ?>.</p>
 		<p>Please use the contents menu on the left to view formulae on each mathematical topic.</p>
 	<h1>Document Details</h1>
 		<p>Title: Mathematical Information</p>
 		<p>Author: <a class='link' href='http://www.ryanvfung.com'>Ryan Fung</a></p>
 		<h2>Version Details</h2>
-			<p>Version: v3.0.1</p>
-			<p>Last Updated: 2015-03-27</p>
+			<p>Version: v<?php echo $version; ?></p>
+			<p>Last Updated: <?php echo $lastupdated; ?></p>
 		<h2>Terms of Use</h2>
 			<p>You may use the mathematical information under the <a class='link' href='http://opensource.org/licenses/MIT'>MIT license</a>.</p>
 			<p>The author is not liable for damages caused by errors or omissions in this document. Information on various aspects of mathematics might be incorrect. This document is subject to change without further notice from the author.</p>
