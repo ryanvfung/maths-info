@@ -2,8 +2,8 @@
 if(!$subtitle) $subtitle = '&nbsp;';
 if($subtitle=='') $subtitle = '&nbsp;';
 $version = '3.0.1';
-$lastupdated = '2015-03-27';
-$description = 'Maths Info: a reference website resource providing all formulae needed for basis and intermediate level mathematics';
+$lastupdated = '2015-03-30';
+$description = 'Maths Info: A reference website resource providing all formulae needed for basis and intermediate level mathematics';
 $title = $subtitle.' | Maths Info';
 ?>
 <!doctype html>

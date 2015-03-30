@@ -1,7 +1,7 @@
 <?php
 	$subtitle = 'Home';
 	$homedirectory = '';
-	@include 'php/header.php';
+	@include 'inc/header.php';
 ?>
 <section>
 	<h1>Introduction</h1>
@@ -26,5 +26,5 @@ for ( i = 0; i < a.length; i++ ) {
 }
 </script>
 <?php
-	@include 'php/footer.php';
+	@include 'inc/footer.php';
 ?>
