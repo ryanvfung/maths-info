@@ -213,6 +213,48 @@
 		<td>\[ \ddx{t}{x} = \frac{1}{2} \sech^2{\frac{1}{2}x} \]</td>
 	</tr></table>
 </section>
+<section>
+	<h1 id='applications-of-integration'>Applications of Integration</h1>
+	<h2 id='solid-of-revolution'>Solid of Revolution</h2>
+		<h3>Volume of Revolution</h3>
+			<p>
+				\[
+					\begin{align}
+						V &amp;= \pi \int_a^b{[f(x)]^2 \dx{x}}\qquad\quad = \pi \int_a^b y^2\ \dx{x} \\
+						V &amp;= \pi \int_a^b{[f(x)-g(x)]^2 \dx{x}}       = \pi \int_a^b (y_2-y_1)^2 \dx{x}
+					\end{align}
+				\]
+			</p>
+		<h3>Centroid of a Plane Area</h3>
+			<p>The plane area between two continuous functions \( f(x) \lt g(x) \) on a given interval \( x \in [a,b] \) is defined as:</p>
+			<p>\[ A = \int_a^b{f(x)\dx{x}} - \int_a^b{g(x)\dx{x}} \]</p>
+			<p>The coordinates of the centroid \( (\bar{x}, \bar{y}) \) are defined by:</p>
+			<p>
+				\[
+					\begin{align}
+						\bar{x} &amp;= \ \frac{1}{A} \int_a^b{x[f(x)-g(x)]\dx{x}}           \qquad\ \ = \ \frac{1}{A} \int_a^b{x(y_2-y_1)\dx{x}} \\
+						\bar{y} &amp;= \frac{1}{2A}  \int_a^b{\left\{[f(x)]^2-[g(x)]^2\right\}\dx{x}} = \frac{1}{2A}  \int_a^b{(y_2^2 - y_1^2)\dx{x}}
+					\end{align}
+				\]
+			</p>
+		<h3>Geometric Properties</h3>
+			<p>Arc length of the curve:</p>
+			<p>\[ s = \int_a^b{\sqrt{1 + \left(\ddx{y}{x}\right)^2 }\dx{x}} \]</p>
+			<p>Surface area of the solid of revolution:</p>
+			<p>\[ S = 2\pi \int_a^b{y \sqrt{1 + \left(\ddx{y}{x}\right)^2 }\dx{x}} \]</p>
+	<h2 id='continuously-varying-quantities'>Continuously Varying Quantities</h2>
+		<p>Mean value</p>
+		<p>\[ \mathrm{m.v.}(f(x)) = \frac{1}{b-a} \int_a^b{f(x)\dx{x}} = \frac{1}{b-a} \int_a^b{y\ \dx{x}} \]</p>
+		<p>Root mean square value</p>
+		<p>
+			\[
+				\begin{align}
+					\left[\mathrm{r.m.s.}(f(x))\right]^2 &amp;= \quad \frac{1}{b-a} \int_a^b{[f(x)]^2\dx{x}}  = \quad\,\frac{1}{b-a} \int_a^b{y^2\dx{x}} \\
+					      \mathrm{r.m.s.}(f(x))          &amp;= \sqrt{\frac{1}{b-a} \int_a^b{[f(x)]^2\dx{x}}} =  \sqrt{\frac{1}{b-a} \int_a^b{y^2\dx{x}}}
+				\end{align}
+			\]
+		</p>		
+</section>
 <?php
 	@include '../inc/footer.php';
 ?>

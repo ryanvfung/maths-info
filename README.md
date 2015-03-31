@@ -12,10 +12,10 @@ Available for use under the [MIT license](http://opensource.org/licenses/MIT).
 
 **Created**: 2010 (v1)
 
-**Last Modified**: 2015-03-30 (v3.0.1)
+**Last Modified**: 2015-03-31 (v3.0.2)
 
 
-Version 3.0.1 Contents
+Version 3.0.2 Contents
 ----------------------
 
 * [Home](http://ryanvfung.com/maths)

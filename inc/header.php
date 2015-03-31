@@ -1,8 +1,8 @@
 <?php
 if(!$subtitle) $subtitle = '&nbsp;';
 if($subtitle=='') $subtitle = '&nbsp;';
-$version = '3.0.1';
-$lastupdated = '2015-03-30';
+$version = '3.0.2';
+$lastupdated = '2015-03-31';
 $description = 'Maths Info: A reference website resource providing all formulae needed for basis and intermediate level mathematics';
 $title = $subtitle.' | Maths Info';
 ?>
@@ -90,10 +90,15 @@ $title = $subtitle.' | Maths Info';
 		<li>
 			<a href='../calculus/'>Calculus</a>
 			<ul>
+				<li><a href='../calculus/#standard-results'>Standard Results</a></li>
+				<li><a href='../calculus/#differentiation-laws'>Differentiation Laws</a></li>
+				<li><a href='../calculus/#integration-laws'>Integration Laws</a></li>
 				<li>
-					<a href='../calculus/#standard-results'>Standard Results</a>
-					<a href='../calculus/#differentiation-laws'>Differentiation Laws</a>
-					<a href='../calculus/#integration-laws'>Integration Laws</a>
+					<a href='../calculus/#applications-of-integration'>Applications of Integration</a>
+					<ul>
+						<li><a href='../calculus/#solid-of-revolution'>Solid of Revolution</a></li>
+						<li><a href='../calculus/#continuously-varying-quantities'>Continuously Varying Quantities</a></li>
+					</ul>
 				</li>
 			</ul>
 		</li>
