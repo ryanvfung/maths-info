@@ -57,8 +57,8 @@ window.onload = function () {
 }
 $(window).scroll( function () {
 	if( $('body').scrollTop() > $('#header-wrapper').css('paddingTop').split('px')[0] ) { 
-		$('body').addClass('obscured');
+		$('body').addClass('header-obscured');
 	} else {
-		$('body').removeClass('obscured');
+		$('body').removeClass('header-obscured');
 	}
 });
