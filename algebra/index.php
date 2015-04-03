@@ -1,6 +1,6 @@
 <?php
 	$subtitle = 'Algebra';
-	$homedirectory = '../';
+	$home = '../';
 	@include '../inc/header.php';
 ?>
 <section>

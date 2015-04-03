@@ -1,6 +1,6 @@
 <?php
 	$subtitle = 'Calculus';
-	$homedirectory = '../';
+	$home = '../';
 	@include '../inc/header.php';
 	@include '../inc/latex-declarations.php';
 ?>

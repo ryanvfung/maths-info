@@ -1,6 +1,6 @@
 <?php
 	$subtitle = 'Trigonometry';
-	$homedirectory = '../';
+	$home = '../';
 	@include '../inc/header.php';
 	@include '../inc/latex-declarations.php';
 ?>
