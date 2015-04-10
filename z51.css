@@ -359,13 +359,3 @@ main p {
 		padding: 0em 7.8125em 0.35em 1.11em;
 	}
 }
-@media 
-	only screen and (-webkit-min-device-pixel-ratio: 1.4),
-	only screen and	   (min--moz-device-pixel-ratio: 1.4),
-	only screen and		 (-o-min-device-pixel-ratio: 1.4 / 1),
-	only screen and (min-resolution: 1.4dppx),
-	only screen and (min-resolution: 134.4dpi) {
-	body {
-		font-size: 200%;
-	}
-}

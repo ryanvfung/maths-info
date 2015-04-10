@@ -18,6 +18,7 @@ $title = $subtitle.' | Maths Info';
 	<script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.14/jquery.scrollTo.min.js'></script>
 	<script type='text/javascript' src='//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 	<script type='text/javascript' src='<?php echo $home; ?>z51.js'></script>
+	<meta name='viewport' content='width=device-width,initial-scale=1' />
 	<meta charset='UTF-8' />
 	<meta name='author'              content='Ryan Fung' />
 	<meta name='description'         content='<?php echo $description; ?>' />
