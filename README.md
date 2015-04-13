@@ -12,7 +12,9 @@ Available for use under the [MIT license](http://opensource.org/licenses/MIT).
 
 **Created**: 2010 (v1)
 
-**Last Modified**: 2015-03-31 (v3.0.2)
+**Latest Versioning**: 2015-03-31 (v3.0.2)
+
+**Last Modified**: 2015-04-13 (v3.0.2)
 
 
 Version 3.0.2 Contents
