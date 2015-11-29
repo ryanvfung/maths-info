@@ -1,67 +1,51 @@
 #title a {
-	color: inherit;
-	text-decoration: inherit;
+  color: inherit;
+  text-decoration: inherit;
 }
-#title a:hover {
-	text-decoration: underline;
-}
-h1 {
-	margin: 1em 0em 0.2em;
-}
-h1:first-child {
-	margin: 0em 0em 0.2em;
+#title a:hover { text-decoration: underline; }
+
+h1 { margin: 1em 0 .2em; }
+h1:first-child { margin: 0 0 .2em; }
+
+nav#nav ul li:nth-child(even) { background: #fff; }
+nav#nav ul li a:hover,
+nav#nav .toggle:hover {
+  background: #f3f3f3;
 }
 
-nav#nav ul li:nth-child(even) {
-	background: #fff;
-}
-nav#nav ul li a:hover, nav#nav .toggle:hover {
-	background: #f3f3f3;
-}
-table .MathJax_Display {
-	margin: 0.5em 0em !important;
-}
-table {
-	margin: 1em auto;
-}
-td {
-	text-align: center;
-}
-
+table .MathJax_Display { margin: .5em 0 !important; }
+table { margin: 1em auto; }
+td { text-align: center; }
 
 nav#nav ul li.intra {
 	background: #ddd;
 }
+
 @media all and (min-width: 500px) {
-	.toggle {
-		display: block;
-		position: absolute;
-		right: 0;
-		width: 1em;
-		height: 1em;
-		margin-top: -2.5em;
-		padding: 0.8em 0.6em 0.7em 0.9em;
-		cursor: pointer;
-	}
-	.toggle:hover {
-		background: #inherit;
-	}
-	.toggle-arrow {
-		display: inline-block;
-		width: 0.5em;
-		height: 0.5em;
-		margin-top: -0.1em;
-		border-right:  0.2em solid #f60;
-		border-bottom: 0.2em solid #f60;
-		transform: rotate(-135deg);
-	}
-	.nav-ul-hide ul {
-		display: none;
-	}
-	.nav-ul-hide .toggle {
-		padding: 0.55em 0.6em 0.95em 0.9em;
-	}
-	.nav-ul-hide .toggle-arrow {
-		transform: rotate(45deg);
-	}
+  .toggle {
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 1em;
+    height: 1em;
+    margin-top: -2.5em;
+    padding: .8em .6em .7em .9em;
+    cursor: pointer;
+  }
+
+  .toggle:hover { background: inherit; }
+
+  .toggle-arrow {
+    display: inline-block;
+    width: .5em;
+    height: .5em;
+    margin-top: -.1em;
+    transform: rotate(-135deg);
+    border-right: .2em solid #f60;
+    border-bottom: .2em solid #f60;
+  }
+
+  .nav-ul-hide ul { display: none; }
+  .nav-ul-hide .toggle { padding: .55em .6em .95em .9em; }
+  .nav-ul-hide .toggle-arrow { transform: rotate(45deg); }
 }
